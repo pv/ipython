@@ -30,6 +30,7 @@
     
     <div id="content_panel">
         <form action="/login?next={{url_escape(next)}}" method="post">
+            <input type="text" name="name" value="" style="display: none;">
             Password: <input type="password" name="password">
             <input type="submit" value="Sign in" id="signin">
         </form>
